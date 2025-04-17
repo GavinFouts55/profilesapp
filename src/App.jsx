@@ -68,6 +68,8 @@ export default function App() {
           >
             <View>
               <Heading level="3">{userprofile.email}</Heading>
+              {/* Hardcode your name here */}
+              <Heading level="4">Gavin Fouts</Heading>
             </View>
           </Flex>
         ))}
